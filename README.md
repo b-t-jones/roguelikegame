@@ -17,7 +17,7 @@ Repository for roguelike game level 3 individual project.
 * Discussed ways to improve current smoothing technique
 * Some merit in continuing improvement of cellular automata technique
 * Discussed procedural maze generation 
-* Discussed alternative to Hilbert curves, "The Sierpinski Curve"
+* Discussed alternative to Hilbert curves, [("The Sierpinski Curve")](http://www.tgmdev.be/applications/acheron/curves/curvesierpinski.php)
 * Project aims -> build a hybrid of methods potentially including Hilbert curves, cellular automata smoothing, perlin/simplex noise, non-deterministic descent functions
 * Discussed potentials for Escher worlds (optical perspective tricks), procedural implications on this approach
 * Discussed the idea of separate approaches for different methods as different branches with one main focus branch, other smaller idea branches to be explored
