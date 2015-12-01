@@ -1,6 +1,36 @@
 ## Rogue-like Game Individual Project - Project Log  
 Repository for roguelike game level 3 individual project.
 
+
+
+###Week Beginning 30/11/15
+##### Progress:
+* Started on structure building tutorial on [(Trystan's Blog)](http://trystans.blogspot.co.uk/2011/08/roguelike-tutorial-03-scrolling-through.html)
+* Created basic structure for game implementation in Java JFrame window
+* Created very basic 2d noise algorithm (to be improved upon), which looks at each cell and has 50/50 probability of being 0 or 1
+* Smoothed this out using smoothing technique from cellular automata, whereby each tile checks surrounding tiles and transforms to the tile most common 
+* This creates decent but by no means perfect structures to start a cavelike system on
+* Took screenshot1 for progress comparisons
+* Researched perlin noise
+
+##### Meeting with Dr Friedetzky (1/12/15):
+* Discussed ways to improve current smoothing technique
+* Some merit in continuing improvement of cellular automata technique
+* Discussed procedural maze generation 
+* Discussed alternative to Hilbert curves, "The Sierpinski Curve"
+* Project aims -> build a hybrid of methods potentially including Hilbert curves, cellular automata smoothing, perlin/simplex noise, non-deterministic descent functions
+* Discussed potentials for Escher worlds (optical perspective tricks), procedural implications on this approach
+* Discussed the idea of separate approaches for different methods as different branches with one main focus branch, other smaller idea branches to be explored
+* Discussed merits of generation->test->keep/discard vs generating perfect worlds with a perfect algorithm (cost/time/complexity?)
+* Recieved links for Natural Simulation tutorial [(Khan Academy)](https://www.khanacademy.org/computing/computer-programming/programming-natural-simulations/programming-randomness/p/challenge-lvy-walker)
+
+##### Objectives:
+* Continue improving cellular automata approach 
+* Look at ways of hybridising current methods -> Mathematical curve functions with noise, maze generation and cave smoothing
+* Look at Khan academy tutorial for interesting results
+
+---
+
 ###Week Beginning 23/11/15
 ##### Progress:
 * Researched + learnt about version control- downloaded EGit for Eclipse
