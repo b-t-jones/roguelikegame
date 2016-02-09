@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.5)  9 FEB 2016 02:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.5)  9 FEB 2016 00:43
 entering extended mode
-**"C:/Users/Benjamin/Documents/Dissertation/Design Report/designreport1.tex"
-("C:/Users/Benjamin/Documents/Dissertation/Design Report/designreport1.tex"
+**"C:/Users/Benjamin/Documents/Dissertation/Design Report/test/designreport2.te
+x"
+("C:/Users/Benjamin/Documents/Dissertation/Design Report/test/designreport2.tex
+"
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -242,7 +244,7 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count110
 \algocf@algoframe=\box32
 \algocf@algobox=\box33
-) (designreport1.aux)
+) (designreport2.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
@@ -277,7 +279,7 @@ LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
 LaTeX Info: Redefining \nameref on input line 21.
 
-(designreport1.out) (designreport1.out)
+(designreport2.out) (designreport2.out)
 \@outlinefile=\write4
 Package hyperref Info: *** compatibility with harvard ****  on input line 21.
 
@@ -431,101 +433,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
-[7 <./images/cellauto.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-<images/figure2.png, id=128, 578.16pt x 289.08pt>
+[7 <./images/cellauto.png>] <images/figure2.png, id=126, 578.16pt x 289.08pt>
 File: images/figure2.png Graphic file (type png)
- <use images/figure2.png>
-Package pdftex.def Info: images/figure2.png used on input line 298.
+
+<use images/figure2.png>
+Package pdftex.def Info: images/figure2.png used on input line 327.
+(pdftex.def)             Requested size: 289.07928pt x 144.53964pt.
+ <images/figure1.png, id=128, 578.16pt x 289.08pt>
+File: images/figure1.png Graphic file (type png)
+
+<use images/figure1.png>
+Package pdftex.def Info: images/figure1.png used on input line 334.
 (pdftex.def)             Requested size: 289.07928pt x 144.53964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/figure1.png, id=130, 578.16pt x 289.08pt>
-File: images/figure1.png Graphic file (type png)
- <use images/figure1.png>
-Package pdftex.def Info: images/figure1.png used on input line 305.
-(pdftex.def)             Requested size: 289.07928pt x 144.53964pt.
-
-<images/perlingen.png, id=132, 658.46pt x 328.72812pt>
-File: images/perlingen.png Graphic file (type png)
-
-<use images/perlingen.png>
-Package pdftex.def Info: images/perlingen.png used on input line 314.
-(pdftex.def)             Requested size: 427.99394pt x 213.67073pt.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 315.
-
+[8 <./images/figure2.png>] [9 <./images/figure1.png>] (designreport2.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 30.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/perlin2.png, id=136, 582.175pt x 317.185pt>
-File: images/perlin2.png Graphic file (type png)
- <use images/perlin2.png>
-Package pdftex.def Info: images/perlin2.png used on input line 324.
-(pdftex.def)             Requested size: 177.82516pt x 113.80899pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-\OT1/ptm/m/n/12 lin noise, sourced from []$\OT1/pcr/m/n/12 http : / / www .$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-$\OT1/pcr/m/n/12 nolithius . com / game-[]development /$
- []
-
-<images/terrain.png, id=139, 582.175pt x 317.185pt>
-File: images/terrain.png Graphic file (type png)
- <use images/terrain.png>
-Package pdftex.def Info: images/terrain.png used on input line 332.
-(pdftex.def)             Requested size: 177.82516pt x 113.80899pt.
-
-Underfull \hbox (badness 2744) in paragraph at lines 333--333
-[]\OT1/ptm/m/n/12 Figure 8: []Terrain ap-plied to Per-lin noise
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--333
-$\OT1/pcr/m/n/12 nolithius . com / game-[]development /$
- []
-
-
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 322--336
-[]$[]$ $[]$ 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
-
- []
-
-[9 <./images/figure2.png> <./images/figure1.png>] [10 <./images/perlingen.png>]
-(designreport1.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 30--30
 []| | \OT1/ptm/m/n/12 .kkrieger (2004), []$\OT1/pcr/m/n/12 http : / / web . arc
 hive . org / web / 20110717024227 / http :$
@@ -549,34 +478,33 @@ $\OT1/pcr/m/n/12 Method _ for _ Generating _ Random _ Cave-[]Like _ Levels$[]\O
 T1/ptm/m/n/12 .  (Vis-ited on
  []
 
-[11 <./images/perlin2.png (PNG copy)> <./images/terrain.png (PNG copy)>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 391.
-
-[12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
- (designreport1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 391.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 391.
-Package rerunfilecheck Info: File `designreport1.out' has not changed.
-(rerunfilecheck)             Checksum: 52520F18F24F498CAC0060A6DD162F16;1042.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 410.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 410.
+ (designreport2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 410.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 410.
+Package rerunfilecheck Info: File `designreport2.out' has not changed.
+(rerunfilecheck)             Checksum: 9D8C99559BECC3A38655CD996AB5D139;1013.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 391.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 410.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6603 strings out of 493673
- 98528 string characters out of 3141521
- 196666 words of memory out of 3000000
- 9824 multiletter control sequences out of 15000+200000
+ 6575 strings out of 493673
+ 98054 string characters out of 3141521
+ 195550 words of memory out of 3000000
+ 9805 multiletter control sequences out of 15000+200000
  21466 words of font info for 43 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,17n,34p,1134b,2050s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,17n,34p,1139b,2050s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
 enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><
@@ -586,9 +514,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on designreport1.pdf (12 pages, 1388571 bytes).
+Output written on designreport2.pdf (10 pages, 316290 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

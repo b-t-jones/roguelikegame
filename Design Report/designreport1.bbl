@@ -1,0 +1,71 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{A.~Lagae}{2010}{surveyPNF}
+A.~Lagae, e.~a.  \harvardyearleft 2010\harvardyearright , `A survey of
+  procedural noise functions', {\em Computer Graphics Forum} {\bf 0 (1981)}(0).
+
+\harvarditem{Adams}{2007}{vast}
+Adams, S.~Goel, A.  \harvardyearleft 2007\harvardyearright , `Making sense of
+  vast data', {\em Intelligence and Security Informatics, 2007 IEEE}
+  pp.~270--273.
+
+\harvarditem{Craddock}{2015}{Dunhack}
+Craddock, D.~L.  \harvardyearleft 2015\harvardyearright , {\em Dungeon Hacks:
+  How NetHack, Angband, and Other Roguelikes Changed the Course of Video
+  Games}, Authors Republic.
+
+\harvarditem{Ebert}{1994}{textmodel}
+Ebert, D.  \harvardyearleft 1994\harvardyearright , {\em Texturing and
+  Modeling, A Procedural Approach}, AP Professional, Cambridge.
+
+\harvarditem{Gardner}{1970}{cellauto}
+Gardner, M.  \harvardyearleft 1970\harvardyearright , `Mathematical games - the
+  fantastic combinations of john conway's new solitaire game "life"', {\em
+  Scientific American} {\bf 223},~120--123.
+
+\harvarditem{.kkrieger}{2004}{kkrieger}
+.kkrieger  \harvardyearleft 2004\harvardyearright ,
+  \url{http://web.archive.org/web/20110717024227/http://www.theprodukkt.com/kkrieger}.
+\newblock (Accessed on 02/05/2016).
+
+\harvarditem{Lemay}{1996}{java}
+Lemay, L.~Perkins, C.  \harvardyearleft 1996\harvardyearright , {\em Teach
+  Yourself Java in 21 Days}, Sams.net Publishing, Indiana.
+
+\harvarditem{Newzoo}{2014}{newzoo}
+Newzoo  \harvardyearleft 2014\harvardyearright , `Global games market will
+  reach \$102.9 billion in 2017', \url{newzoo.com/globalgamesdata}.
+\newblock (Accessed on 02/05/2016).
+
+\harvarditem{Perlin}{1988}{imagesynth}
+Perlin, K.  \harvardyearleft 1988\harvardyearright , `An image synthesizer',
+  {\em Computer Graphics} {\bf 19}(3).
+
+\harvarditem{Perlin}{2002}{improvepnoise}
+Perlin, K.  \harvardyearleft 2002\harvardyearright , `Improving noise', {\em
+  Computer Graphics} {\bf 35}(3).
+
+\harvarditem{RogueBasin}{2016}{roguebasin}
+RogueBasin  \harvardyearleft 2016\harvardyearright , `Cellular automata method
+  for generating random cave-like levels',
+  \url{http://www.roguebasin.com/index.php?title=Cellular_Automata_Method_for_Generating_Random_Cave-Like_Levels}.
+\newblock (Visited on 02/07/2016).
+
+\harvarditem{RoguelikeTutorial}{2016}{trystan}
+RoguelikeTutorial  \harvardyearleft 2016\harvardyearright , `Trystan's blog',
+  \url{http://trystans.blogspot.co.uk/}.
+\newblock (Accessed on 02/05/2016).
+
+\harvarditem[Togelius et~al.]{Togelius, Shaker \harvardand\
+  Nelson}{2015}{pgcbookch4}
+Togelius, J., Shaker, N. \harvardand\ Nelson, M.~J.  \harvardyearleft
+  2015\harvardyearright , Fractals, noise and agents with applications to
+  landscapes, {\em in} N.~Shaker, J.~Togelius \harvardand\ M.~J. Nelson, eds,
+  `Procedural Content Generation in Games: A Textbook and an Overview of
+  Current Research', Springer.
+
+\harvarditem{Tulleken}{2008}{Howuseperlin}
+Tulleken, H.  \harvardyearleft 2008\harvardyearright , `How to use perlin noise
+  in your games', {\em Dev. Mag} {\bf 20}.
+
+\end{thebibliography}
