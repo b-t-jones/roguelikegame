@@ -4,6 +4,7 @@
 \usepackage{harvard}
 \usepackage{underscore}
 \usepackage{graphicx}
+\usepackage{url}
 \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
 
 %\package save trees - to save room
@@ -211,7 +212,7 @@ The game engine that houses the game world and handles input and output as menti
 \begin{minipage}{.5\textwidth}
   \centering
  	\includegraphics[width=6.25cm,height=4cm]{images/asciipanel1inv.png}
-	\caption[]{Asciipanel GUI example \\ Image sourced from: \\http://www.headchant.com/2012/02/15/asciipanel-as/}
+	\caption[]{Asciipanel GUI example \\ Image sourced from: \\\url{http://www.headchant.com/2012/02/15/asciipanel-as/}}
 	\label{fig:fig1}
 \end{minipage}
 \begin{minipage}{.5\textwidth}
@@ -222,7 +223,7 @@ The game engine that houses the game world and handles input and output as menti
 \end{minipage}
 \end{figure}
 %Ask for Friedetzky's help
-
+% put vertically- increase size
 
 \subsection{Noise and Smoothing Algorithms}
 \label{subsec:noise}
@@ -248,6 +249,8 @@ The psuedocode for a basic binary noise algorithm described in FR2 (Table:\ref{t
 	\label{Alg:alg1}
 \end{algorithm}
 
+% not necessary 
+
 \subsection{Cellular Automata}
 
 The binary noise algorithm is simple and easy to implement, paving the foundation for a smoothing technique known as `Cellular Automata'. This technique became famous in the 1970's when British mathematician John Horton Conway devised his evolutionary `Game of Life', a game that transforms an initial state of `cells' into intricate and interesting patterns and designs by the use of 4 rules \cite{cellauto}: 
@@ -258,7 +261,7 @@ The binary noise algorithm is simple and easy to implement, paving the foundatio
 	\item Births. Each empty cell adjacent to exactly three neighbours--no more, no fewer--is a birth cell. A cell is placed on it at the next move.
 \end{itemize}
 
-This process is used upon the result of the binary noise algorithm to `smooth' out the landscape by turning areas that are mostly neighbouring walls into walls and areas mostly neighbouring floors into floors. The process is then repeated a number of times until the desired combination of walls and floors is achieved. The algorithm pseudo code is too long and complicated to be included here, but more details can be found in chapter 7 of Daniel Shiffman's book, `The Nature of Code' (2012). [UNNECESSARY?]\\
+This process is used upon the result of the binary noise algorithm to `smooth' out the landscape by turning areas that are mostly neighbouring walls into walls and areas mostly neighbouring floors into floors. The process is then repeated a number of times until the desired combination of walls and floors is achieved. \\
 
 An example of the process run on the basic noise algorithm seen in algorithm \ref{Alg:alg1} is shown below:
 
@@ -271,11 +274,11 @@ An example of the process run on the basic noise algorithm seen in algorithm \re
 
 It's clear to see from figure \ref{fig:fig3} that this process very quickly converges to produce interesting, procedurally generated cave-like structures for a roguelike game setting, in addition to being computationally inexpensive (the generation is instantaneous even for very high levels of iterations (1000+) on a moderately powerful machine). \\
 
-It is, however, limited in its usefulness by itself, as the results of the algorithm are inconsistent, occasionally producing uninteresting or unnatural worlds. Worse still, its particularly prone to what is known as `the isolated cave problem', whereby produced maps are often `disconnected'- that is the player is unable to advance from any location to any other location. 
+It is, however, limited in its usefulness by itself, as the results of the algorithm are inconsistent, occasionally producing uninteresting or unnatural worlds. Worse still, its particularly prone to what is known as `the isolated cave problem', whereby produced maps are often `disconnected'- that is the player is unable to advance from any location to any other location. \\
 
-This nature (seen in fig \ref{fig:fig3}) breaks functional requirement 5 of the project, and therefore alternative methods or amendments must be implemented to achieve this goal. There are a variety of ways that we may achieve this. One approach for example would be to generate many worlds and test for completeness, discarding the worlds that don't fit our criteria. Because of the instantaneous nature of this method of world population, we are able to create and evaluate many worlds very quickly, however the problem arises when we wish to expand our world size. A larger world boundary results in an increased statistical probability that the created world will be disjoint almost every time. An alternative approach would be to identify disjoint sections and connect them up by removing wall segments. This does guarantee connectivity, but is also prone to making the world look unnatural, defeating the point of using the algorithm in the first place. 
+This nature (seen in fig \ref{fig:fig3}) breaks functional requirement 5 of the project, and therefore alternative methods or amendments must be implemented to achieve this goal. There are a variety of ways that we may achieve this. One approach for example would be to generate many worlds and test for completeness, discarding the worlds that don't fit our criteria. Because of the instantaneous nature of this method of world population, we are able to create and evaluate many worlds very quickly, however the problem arises when we wish to expand our world size. A larger world boundary results in an increased statistical probability that the created world will be disjoint almost every time. An alternative approach would be to identify disjoint sections and connect them up by removing wall segments. This does guarantee connectivity, but is also prone to making the world look unnatural, defeating the point of using the algorithm in the first place. \\
 
-One of the biggest advantages with Cellular Automata however is that rules can be tweaked easily to enhance the output. By experimenting with these rules, previous adopters of this approach have been able to produce vastly different environments, some of which are much less likely than others to form disjointed caves \cite{roguebasin}. 
+One of the biggest advantages with Cellular Automata however is that rules can be tweaked easily to enhance the output. By experimenting with these rules, previous adopters of this approach have been able to produce vastly different environments, some of which are much less likely than others to form disjointed caves \cite{roguebasin}. \\
 
 
 
@@ -288,7 +291,7 @@ The approach above is a good starting point for the project but even with the fi
 
 Perlin noise was developed by Ken Perlin in 1985 and has been widely used in applications ranging from procedural world generations to computer graphics \cite{imagesynth} \cite{surveyPNF}. It is particularly good for creating natural looking textures in games and simulated environments, and could be adapted for use in a roguelike setting.\\
 
-It should be noted at this point that Perlin noise is not without flaws and Perlin himself noted a number of improvements on his original design in his 2002 paper, `Improving Noise' \cite{improvepnoise}[UNCESSARY CITATION??]. The result of his paper was the invention of `Simplex Noise', a superior noise algorithm with better efficiency, however Perlin noise is still useful because it is both simpler to implement and the effect of its inefficiencies are questionable in the scope of this project. The project aims to quantify these at a later date. \\
+It should be noted at this point that Perlin noise is not without flaws and Perlin himself noted a number of improvements on his original design in his 2002 paper, `Improving Noise' \cite{improvepnoise}. The result of his paper was the invention of `Simplex Noise', a superior noise algorithm with better efficiency, however Perlin noise is still useful because it is both simpler to implement and the effect of its inefficiencies are questionable in the scope of this project. The project aims to quantify these at a later date. \\
 
 Perlin noise generation can be split into two components, a noise generating function, and an interpolation function. The noise generating function operates in a similar fashion to the binary noise generator described in section \ref{subsec:noise}, except instead of taking on either 0 or 1, the function generates floating point numbers between 0 and a maximum value (known as the amplitude). The interpolation function then smoothly averages across these values, as seen in figures \ref{fig:fig4} \& \ref{fig:fig5}, and we take the distance between points on the x-axis to be the wavelength of the noise wave \cite{Howuseperlin}. 
 
@@ -335,22 +338,75 @@ The applications of this are many-fold, but in a roguelike game this can be used
 \end{minipage}
 \end{figure}
 
+% use one figure one caption
 
 \subsection{Space-Filling Curves}
 
-The results of Perlin noise look promising, with interesting structures and added complexity introduced into the produced worlds. However it is clear that a structure to the world is still lacking, with no easily defined start or end point, specific features, rooms or obvious places to put monsters, traps and treasure that make a Roguelike game so special to play. This project aims to solve these problems by hybridising well-known noise algorithms such as Perlin noise with mathematical functions known as `space-filling curves', in a novel approach not yet seen in previous Roguelikes [Can I say this?? I've not come across it yet..].\\
+The results of Perlin noise look promising, with interesting structures and added complexity introduced into the produced worlds. However it is clear that a structure to the world is still lacking, with no easily defined start or end point, specific features, rooms or obvious places to put monsters, traps and treasure that make a Roguelike game so special to play. This project aims to solve these problems by hybridising well-known noise algorithms such as Perlin noise with mathematical functions known as `space-filling curves', in a novel approach not yet seen to the best of our knowledge in previous Roguelikes.\\
 
-Space-filling curves are fractal in nature, and given a starting seed, produce deterministic and characteristic curves, shapes and paths that could be utilised in our world environment. \\
+Space-filling curves are fractal in nature, and given a starting seed, produce deterministic and characteristic curves, shapes and paths that will be used to form a basis for the world generation algorithm.\\
 
--probability density approach
--probability of something being there or not
--produces an underlying structure, making those pixels/tiles more likely to contain traversable spaces 
--and other tiles more likely to not be traversable
--with perlin noise filling in the rest
--random sections of the space filling algorithm selected
--different paths, checked for entrance and exits
--possibility of expanding to maze generation over the top
--guaranteed, reliable, deterministic and probabilistic, as well as procedural paths in our dungeon/world.
+This will be achieved by taking random segments of a generated curve and overlaying them on top of a Perlin noise image. The result will become a `probability density heightmap' for the world, where densely populated regions will have a greater chance to become traversable tiles. The advantage of this is that the generated world will be much more likely to have a structure, with defining curves, edges and paths from one edge to another (potentially linking to other generated segments), while maintaining the natural look and feel of a Perlin generated environment. Additionally, there are a wealth of different types of space-filling curves; some examples are displayed below in [ref figure]. The project will experiment with a number of these to determine the resulting output, and potentially use multiple ones to reflect upon different in-game environments or `biomes', with their own look and feel arising from the different structures provided by the various curves. \\
+
+As an extension, it may be possible to fulfil non-functional requirement 5 by experimenting with a different set of mathematical algorithms: procedural maze generators. Depending on initial parameters, maze generators are able to procedurally produce a wide variety of shapes in a similar fashion to space filling curves, except they have a specified entrance and exit(s). However the purpose of a roguelike is not necessarily to solve a maze-like puzzle, and the usefulness over a regular space filling curve is questionable.
+
+\begin{figure}[h]
+\begin{minipage}{.5\textwidth}
+  	\centering
+ 	\includegraphics[width=6.25cm,height=4cm]{images/hilbert.png}
+	\caption[]{The Hilbert curve provides large, easy paths but is limited to just horizontal and vertical degrees of freedom.}
+	\label{fig:fig8}
+	\end{minipage}
+% \end{figure}
+% \begin{figure}
+	\begin{minipage}{.5\textwidth}
+ 	\centering
+ 	\includegraphics[width=6.25cm,height=4cm]{images/sierpinskicrv.png}
+	\caption[]{The Sierpinski curve doesn't produce easily followable channels, but could form the basis of several rooms for various gameplay features.}
+	\label{fig:fig9}
+	\end{minipage}
+	\begin{minipage}{.5\textwidth}
+ 	\centering
+ 	\includegraphics[width=6.25cm,height=4cm]{images/cesaro.png}
+	\caption[]{The Cesaro curve looks less natural but might provide interesting results for separate in-game biomes.}
+	\label{fig:fig10}
+	\end{minipage}
+
+	\caption[]{All images sourced from TGMDev, available online at: \url{http://www.tgmdev.be/applications/acheron/acheron.php}}
+
+
+\end{figure}
+
+
+
+% could be utilised in our world environment. We will use this nature to 
+
+
+% fractals curves exhibit a very interesting property known as self-similarity. If you observe precisely the details of a fractal curve, it appears that a portion of the curve replicates exactly the whole curve but on a different scale. Mathematicians have in fact created geometrical fractal curves long before the introduction of the fractal geometry by Benoit Mandelbrot. Some of these curves are well-known as the Von Koch's snowflake or the triangle of Sierpinsky. \\
+
+% -probability density approach
+% -probability of something being there or not
+% -produces an underlying structure, making those pixels/tiles more likely to contain traversable spaces 
+% -and other tiles more likely to not be traversable
+% -with perlin noise filling in the rest
+% -random sections of the space filling algorithm selected
+
+
+% -different paths, checked for entrance and exits
+% -possibility of expanding to maze generation over the top
+% -guaranteed, reliable, deterministic and probabilistic, as well as procedural paths in our dungeon/world.
+
+
+% % DEFINITELY include about testing and evaluating 
+% % software engineering practices for testing and evaluating 
+% % objective criteria evaluation, runtime etc
+% % objective measures to do with quality of something
+% % possibility as well- user based evaluation 
+% % eg does it feel how you'd like it to feel? use questionnaire
+% % 1/3 of a page is achievable 
+% % k connectivity- ways of travelling 
+% % diameter 
+% % heuristic for evaluation- get the player to play the best weighted average 
 
 
 
@@ -358,29 +414,31 @@ Space-filling curves are fractal in nature, and given a starting seed, produce d
 
 
 
-\subsection{Main Text}
+% \subsection{Main Text}
 
-The font used for the main text should be Times New Roman (Times) and the font size should be 12.  \textbf{The first line of all paragraphs should be indented by 0.25in, \emph{except} for the first paragraph of each section, subsection, subsubsection etc.} (the paragraph immediately after the header) where no indentation is needed.
+% The font used for the main text should be Times New Roman (Times) and the font size should be 12.  \textbf{The first line of all paragraphs should be indented by 0.25in, \emph{except} for the first paragraph of each section, subsection, subsubsection etc.} (the paragraph immediately after the header) where no indentation is needed.
 
-\subsection{Figures and Tables}
-In general, figures and tables should not appear before they are cited.  Place figure captions below the figures; place table titles above the tables.  If your figure has two parts, for example, include the labels ``(a)'' and ``(b)'' as part of the artwork.  Please verify that figures and tables you mention in the text actually exist.  make sure that all tables and figures are numbered as shown in Table  and Figure 1.
-sort out your own preferred means of inserting figures
+% % use \noindent
 
-% \begin{table}[htb]
-% \centering
-% \caption{UNITS FOR MAGNETIC PROPERTIES}
-% \vspace*{6pt}
-% \begin{tabular}{ccc}\hline\hline
-% Symbol & Quantity & Conversion from Gaussian \\ \hline
-% \end{tabular}
-% \label{units}
-% \end{table}
+% \subsection{Figures and Tables}
+% In general, figures and tables should not appear before they are cited.  Place figure captions below the figures; place table titles above the tables.  If your figure has two parts, for example, include the labels ``(a)'' and ``(b)'' as part of the artwork.  Please verify that figures and tables you mention in the text actually exist.  make sure that all tables and figures are numbered as shown in Table  and Figure 1.
+% sort out your own preferred means of inserting figures
 
-\subsection{References}
+% % \begin{table}[htb]
+% % \centering
+% % \caption{UNITS FOR MAGNETIC PROPERTIES}
+% % \vspace*{6pt}
+% % \begin{tabular}{ccc}\hline\hline
+% % Symbol & Quantity & Conversion from Gaussian \\ \hline
+% % \end{tabular}
+% % \label{units}
+% % \end{table}
 
-The list of cited references should appear at the end of the report, ordered alphabetically by the surnames of the first authors.  The default style for references cited in the main text is the  Harvard (author, date) format.  When citing a section in a book, please give the relevant page numbers, as in.  When citing, where there are either one or two authors, use the names, but if there are more than two, give the first one and use ``et al.'' as in  , except where this would be ambiguous, in which case use all author names.
+% \subsection{References}
 
-You need to give all authors' names in each reference.  Do not use ``et al.'' unless there are more than five authors.  Papers that have not been published should be cited as ``unpublished''.  Papers that have been submitted or accepted for publication should be cited as ``submitted for publication'' as in.  You can also cite using just the year when the author's name appears in the text, as in ``but according to Futher , we \dots''.  Where an authors has more than one publication in a year, add `a', `b' etc. after the year.
+% The list of cited references should appear at the end of the report, ordered alphabetically by the surnames of the first authors.  The default style for references cited in the main text is the  Harvard (author, date) format.  When citing a section in a book, please give the relevant page numbers, as in.  When citing, where there are either one or two authors, use the names, but if there are more than two, give the first one and use ``et al.'' as in  , except where this would be ambiguous, in which case use all author names.
+
+% You need to give all authors' names in each reference.  Do not use ``et al.'' unless there are more than five authors.  Papers that have not been published should be cited as ``unpublished''.  Papers that have been submitted or accepted for publication should be cited as ``submitted for publication'' as in.  You can also cite using just the year when the author's name appears in the text, as in ``but according to Futher , we \dots''.  Where an authors has more than one publication in a year, add `a', `b' etc. after the year.
 
 
 
