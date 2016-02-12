@@ -5,6 +5,7 @@
 \usepackage{underscore}
 \usepackage{graphicx}
 \usepackage{url}
+\usepackage{hyperref}
 \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
 
 %\package save trees - to save room
@@ -51,34 +52,15 @@ Procedural content generation, roguelike, world building, noise algorithms, arti
 \subsection{Roguelike Games} \label{ssec:rogue}
 
 
-The term Roguelike stems from the original 1980s UNIX dungeon crawler `Rogue' created by Michael Toy and Glenn Wichman, giving birth to hundreds of games such as Nethack and Angband that follow the same style and structure and revolutionising the gaming industry as we know it today \cite{Dunhack}. There are many different styles of roguelikes these days, but most share the same core features: turn-based gameplay, procedurally generated tile-based dungeons and randomly created monsters and items [cite PCGBOOK?]. 
+The term Roguelike stems from the original 1980s UNIX dungeon crawler `Rogue' created by Michael Toy and Glenn Wichman, giving birth to hundreds of games such as Nethack and Angband that follow the same style and structure and revolutionising the gaming industry as we know it today \cite{Dunhack}. There are many different styles of roguelikes these days, but most share the same core features: turn-based gameplay, procedurally generated tile-based dungeons and randomly created monsters and items \cite{pgcbook}. 
 
-The basic premise of the game has the player controlling a single character through numerous ASCII represented dungeons filled with items, monsters and traps[cite roguebasin?]. However what made it so unique and revolutionary at the time was the fact that the game was different every time you played it thanks to its procedurally generated nature. 
+The basic premise of the game has the player controlling a single character through numerous ASCII represented dungeons filled with items, monsters and traps. However what made it so unique and revolutionary at the time was the fact that the game was different every time you played it thanks to its procedurally generated nature \cite{roguebasin}. 
 
 
 
 \subsection{Procedural Content Generation} \label{ssec:PCG}
 
-% Procedural content generation
-% many applications
-% process of creation of content through the use of random numbers as the seed to generate objects rather than by hand
-% code is used
-% grown popular recently
-% as they get better they'll be able to open the world up to many great benefits, arbitrary size & complexity
-% imagine a world where..
-% recent examples
-% minecraft is by far the most popular, with .... sales exceeding.. 
-% 	demonstrates the capability and potential of successful procedural content generation
-% spore
-% no man's sky
-% krieger 
-% 	less well known but still an excellent example of how pgc can be used and an excellent example of its benefits
-
-Procedural content generation (PCG) is the process of creating content through the use of random numbers as seeds to generate objects using code and mathematical functions, as opposed to the typical method of being manually created by a developer[possible citation of a paper]. This has many possible applications, from running real-world simulations on procedurally generated objects and environments \cite{vast}, to generating interesting and unique textures[cite] texture generation, and of course for use in video games. This is typically achieved by modifying the results of mathematical noise algorithms \cite{pgcbookch4}, which generate heightmaps and intensity maps that can be transformed into random terrains. \\
-
-% with popular games such as Minecraft making good use of the Perlin noise algorithm (discussed in more detail in [REF]), 
-
-% The benefits of PCG over manual content creation in video games are clear: game environments with arbitrary size \& complexity can be created in seconds, with the
+Procedural content generation (PCG) is the process of creating content through the use of random numbers as seeds to generate objects using code and mathematical functions, as opposed to the typical method of being manually created by a developer \cite{pgcbook}. This has many possible applications, from running real-world simulations on procedurally generated objects and environments \cite{vast}, to generating interesting and unique textures and graphics \cite{imagesynth}, and of course for use in video games. This is typically achieved by modifying the results of mathematical noise algorithms \cite{pgcbookch4}, which generate heightmaps and intensity maps that can be transformed into random terrains. \\
 
 Procedural generation has many advantages unrivalled by other generation methods: it is typically much faster to evaluate, it can generate arbitrarily complex and intricate designs on the fly and has particularly low memory footprint \cite{surveyPNF}. Additionally, the variation of input parameters can easily generate an incredible number of uniquely styled designs. The result is that procedurally generated game content has the capability to offer every game user a unique gaming experience every time they play. \\
 
@@ -93,11 +75,11 @@ Procedural generation has many advantages unrivalled by other generation methods
 % is often randomly accessible, so that it can be evaluated independently
 % at every point in constant time.
 
-A perfect example of the power and potential of PCG is Minecraft. At the time of writing, Minecraft sales have hit more than 70 million world-wide, making it one of the most popular games of all time [reference- help?]. However at it's base, Minecraft draws many parallels with the methods of generation seen in even some of the earliest Roguelike games, for example, Minecraft uses at it's core a 3D adaptation of the 2D Perlin noise algorithm adopted by many popular roguelikes[cite notch], including Nethack and Dwarf Fortress[cite twice].\\
+A perfect example of the power and potential of PCG is \emph{Minecraft}. At the time of writing, Minecraft sales have hit more than 70 million world-wide, making it one of the most popular games of all time \cite{ukie}. However at it's base, Minecraft draws many parallels with the methods of generation seen in even some of the earliest Roguelike games, for example, Minecraft uses at it's core a 3D adaptation of the 2D Perlin noise algorithm adopted by many popular roguelikes \cite{notch}, including \emph{Nethack} and \emph{Dwarf Fortress} \cite{Dunhack}.\\
 
 Also recently hitting the spotlights recently is indie game \emph{`No Man's Sky'}, a futuristic sci-fi role-playing game (RPG) that procedurally generates an entire galaxy populated with up to 18 quintillion planets for the player to explore at their leisure. Developed by a team of only 10 people, No Man's Sky demonstrates the power and potential that procedural generation has to offer to the gaming market. \\
 
-A final game worth mentioning is award-winning 2004 German 3D shooter `.kkrieger'. The game won its award not because of its content however, but because its extensive use of procedural generation techniques mean everything from the textures to the in-game sounds (as well as the traditional monsters and levels) are generated completely procedurally. This allows the entire game to be coded in just 96 kilobytes of memory, meaning that even screenshots of the game take up more room than the game itself and allowing .kkrieger to take up to 3000x less storage than an equivalent conventionally designed game \cite{kkrieger}. This game exemplifies what can be achieved using procedural techniques.\\
+A final game worth mentioning is award-winning 2004 German 3D shooter `\emph{.kkrieger}'. The game won its award not because of its content however, but because its extensive use of procedural generation techniques mean everything from the textures to the in-game sounds (as well as the traditional monsters and levels) are generated completely procedurally. This allows the entire game to be coded in just 96 kilobytes of memory, meaning that even screenshots of the game take up more room than the game itself and allowing .kkrieger to take up to 3000x less storage than an equivalent conventionally designed game \cite{kkrieger}. This game exemplifies what can be achieved using procedural techniques.\\
 
 As games get more complex and take longer to build, coming up with new and exciting ways to programatically generate game content could be the key to a revolution in the gaming industry (expected to reach \$103bn in 2017 \cite{newzoo}).
 
@@ -292,10 +274,7 @@ This nature (seen in fig \ref{fig:fig3}) breaks functional requirement 5 of the 
 One of the biggest advantages with Cellular Automata however is that rules can be tweaked easily to enhance the output. By experimenting with these rules, previous adopters of this approach have been able to produce vastly different environments, some of which are much less likely than others to form disjointed caves \cite{roguebasin}. \\
 
 
-
-
 \subsection{Perlin Noise Algorithm}
-
 
 The approach above is a good starting point for the project but even with the finest tweaking of the algorithms rules, the output is limited by its ability to only produce binary maps (only walls and floors) and its inability to create specific features or structures procedurally, falling short of our non-functional requirement 3. With this aim in mind, we look to a different noise producing algorithm, Perlin noise, to advance upon this requirement. \\
 
@@ -366,8 +345,8 @@ As an extension, it may be possible to fulfil non-functional requirement 5 by ex
 	\includegraphics[width=4.5cm,height=4.5cm]{images/hilbert.png}
 	\includegraphics[width=4.5cm,height=4.5cm]{images/sierpinskicrv.png}
 	\includegraphics[width=4.5cm,height=4.5cm]{images/cesaro.png}
-	\caption[]{Left: The Hilbert curve provides large, easy paths but is limited to just horizontal and vertical degrees of freedom. Middle: The Sierpinski curve doesn't produce easily followable channels, but could form the basis of several rooms for various gameplay features. Right: The Cesaro curve looks less natural but might provide interesting results for separate in-game biomes. All images sourced from TGMDev, available online at: \url{http://www.tgmdev.be/applications/acheron/acheron.php}	}
-	\label{fig:fig9}
+	\caption[]{\label{fig:fig9} Left: The Hilbert curve provides large, easy paths but is limited to just horizontal and vertical degrees of freedom. Middle: The Sierpinski curve doesn't produce easily followable channels, but could form the basis of several rooms for various gameplay features. Right: The Cesaro curve looks less natural but might provide interesting results for separate in-game biomes. All images sourced from TGMDev, available online at: \url{http://www.tgmdev.be/applications/acheron/acheron.php}	}
+	
 \end{figure}
 
 

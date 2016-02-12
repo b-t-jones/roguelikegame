@@ -45,6 +45,12 @@ Perlin, K.  \harvardyearleft 1988\harvardyearright , `An image synthesizer',
 Perlin, K.  \harvardyearleft 2002\harvardyearright , `Improving noise', {\em
   Computer Graphics} {\bf 35}(3).
 
+\harvarditem{Persson}{2012}{notch}
+Persson, M.~A.  \harvardyearleft 2012\harvardyearright , `The word of notch —
+  terrain generation, part 1',
+  \url{http://notch.tumblr.com/post/3746989361/terrain-generation-part-1}.
+\newblock (Visited on 02/12/2016).
+
 \harvarditem{RogueBasin}{2016}{roguebasin}
 RogueBasin  \harvardyearleft 2016\harvardyearright , `Cellular automata method
   for generating random cave-like levels',
@@ -55,6 +61,12 @@ RogueBasin  \harvardyearleft 2016\harvardyearright , `Cellular automata method
 RoguelikeTutorial  \harvardyearleft 2016\harvardyearright , `Trystan's blog',
   \url{http://trystans.blogspot.co.uk/}.
 \newblock (Accessed on 02/05/2016).
+
+\harvarditem[Shaker et~al.]{Shaker, Togelius \harvardand\
+  Nelson}{2015}{pgcbook}
+Shaker, N., Togelius, J. \harvardand\ Nelson, M.~J.  \harvardyearleft
+  2015\harvardyearright , {\em Procedural Content Generation in Games: A
+  Textbook and an Overview of Current Research}, Springer.
 
 \harvarditem[Togelius et~al.]{Togelius, Shaker \harvardand\
   Nelson}{2015}{pgcbookch4}
@@ -67,5 +79,10 @@ Togelius, J., Shaker, N. \harvardand\ Nelson, M.~J.  \harvardyearleft
 \harvarditem{Tulleken}{2008}{Howuseperlin}
 Tulleken, H.  \harvardyearleft 2008\harvardyearright , `How to use perlin noise
   in your games', {\em Dev. Mag} {\bf 20}.
+
+\harvarditem{UKIE}{2016}{ukie}
+UKIE  \harvardyearleft 2016\harvardyearright , `The games industry in numbers |
+  ukie', \url{http://ukie.org.uk/research}.
+\newblock (Visited on 02/12/2016).
 
 \end{thebibliography}
