@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.5)  11 FEB 2016 18:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.5)  12 FEB 2016 11:47
 entering extended mode
 **"C:/Users/Benjamin/Documents/Dissertation/Design Report/designreport1.tex"
 ("C:/Users/Benjamin/Documents/Dissertation/Design Report/designreport1.tex"
@@ -242,11 +242,7 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count110
 \algocf@algoframe=\box32
 \algocf@algobox=\box33
-) (designreport1.aux
-
-LaTeX Warning: Label `fig:fig8' multiply defined.
-
-)
+) (designreport1.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
@@ -262,7 +258,8 @@ LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 22.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \AtBeginShipoutBox=\box34
@@ -372,90 +369,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--202
 
  []
 
-<images/asciipanel1inv.png, id=78, 718.685pt x 384.43625pt>
+<images/asciipanel1inv.png, id=82, 718.685pt x 384.43625pt>
 File: images/asciipanel1inv.png Graphic file (type png)
 
 <use images/asciipanel1inv.png>
-Package pdftex.def Info: images/asciipanel1inv.png used on input line 214.
+Package pdftex.def Info: images/asciipanel1inv.png used on input line 228.
 (pdftex.def)             Requested size: 177.82848pt x 113.81245pt.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 215.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 229.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
-[]$\OT1/pcr/m/n/12 http : / / www . headchant . com / 2012 /$
- []
-
-<images/nethack2.png, id=81, 400.49625pt x 250.9375pt>
+<images/nethack2.png, id=85, 400.49625pt x 250.9375pt>
 File: images/nethack2.png Graphic file (type png)
 
 <use images/nethack2.png>
-Package pdftex.def Info: images/nethack2.png used on input line 220.
+Package pdftex.def Info: images/nethack2.png used on input line 232.
 (pdftex.def)             Requested size: 177.83221pt x 113.81297pt.
 
-Underfull \hbox (badness 1348) in paragraph at lines 221--221
-[]\OT1/ptm/m/n/12 Figure 2: []Nethack GUI ex-am-ple [prob-a-bly
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
  []
 
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 212--224
-[]$[]$ $[]$ 
  []
+
+<images/cellauto.png, id=90, 722.19812pt x 430.10687pt>
+File: images/cellauto.png Graphic file (type png)
+
+<use images/cellauto.png>
+Package pdftex.def Info: images/cellauto.png used on input line 281.
+(pdftex.def)             Requested size: 361.09818pt x 215.0529pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-
- []
-
-[5]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 248.
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 248.
-
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
-File: omlptm.fd 
-)
-LaTeX Font Info:    Font shape `OML/ptm/m/it' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 248.
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 [6 <./images/asciipanel1inv.png (PNG copy)> <./images/nethack2.png>]
-<images/cellauto.png, id=108, 722.19812pt x 430.10687pt>
-File: images/cellauto.png Graphic file (type png)
-
-<use images/cellauto.png>
-Package pdftex.def Info: images/cellauto.png used on input line 270.
-(pdftex.def)             Requested size: 361.09818pt x 215.0529pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
-[7 <./images/cellauto.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
@@ -464,118 +427,129 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+[7 <./images/cellauto.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
-<images/figure2.png, id=120, 578.16pt x 289.08pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+<images/figure2.png, id=111, 578.16pt x 289.08pt>
 File: images/figure2.png Graphic file (type png)
  <use images/figure2.png>
-Package pdftex.def Info: images/figure2.png used on input line 301.
+Package pdftex.def Info: images/figure2.png used on input line 312.
 (pdftex.def)             Requested size: 289.07928pt x 144.53964pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/figure1.png, id=122, 578.16pt x 289.08pt>
+<images/figure1.png, id=113, 578.16pt x 289.08pt>
 File: images/figure1.png Graphic file (type png)
  <use images/figure1.png>
-Package pdftex.def Info: images/figure1.png used on input line 308.
+Package pdftex.def Info: images/figure1.png used on input line 319.
 (pdftex.def)             Requested size: 289.07928pt x 144.53964pt.
 
-<images/perlingen.png, id=124, 658.46pt x 328.72812pt>
+[8 <./images/figure2.png>]
+<images/perlingen.png, id=122, 658.46pt x 328.72812pt>
 File: images/perlingen.png Graphic file (type png)
 
 <use images/perlingen.png>
-Package pdftex.def Info: images/perlingen.png used on input line 317.
+Package pdftex.def Info: images/perlingen.png used on input line 328.
 (pdftex.def)             Requested size: 427.99394pt x 213.67073pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/perlin2.png, id=128, 582.175pt x 317.185pt>
+ <images/perlin2.png, id=126, 582.175pt x 317.185pt>
 File: images/perlin2.png Graphic file (type png)
- <use images/perlin2.png>
-Package pdftex.def Info: images/perlin2.png used on input line 327.
+
+<use images/perlin2.png>
+Package pdftex.def Info: images/perlin2.png used on input line 338.
 (pdftex.def)             Requested size: 177.82516pt x 113.80899pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 \OT1/ptm/m/n/12 lin noise, sourced from []$\OT1/pcr/m/n/12 http : / / www .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 $\OT1/pcr/m/n/12 nolithius . com / game-[]development /$
  []
 
-<images/terrain.png, id=131, 582.175pt x 317.185pt>
+<images/terrain.png, id=129, 582.175pt x 317.185pt>
 File: images/terrain.png Graphic file (type png)
  <use images/terrain.png>
-Package pdftex.def Info: images/terrain.png used on input line 335.
+Package pdftex.def Info: images/terrain.png used on input line 346.
 (pdftex.def)             Requested size: 177.82516pt x 113.80899pt.
 
-Underfull \hbox (badness 2744) in paragraph at lines 336--336
+Underfull \hbox (badness 2744) in paragraph at lines 347--347
 []\OT1/ptm/m/n/12 Figure 8: []Terrain ap-plied to Per-lin noise
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 $\OT1/pcr/m/n/12 nolithius . com / game-[]development /$
  []
 
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 325--339
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 336--350
 []$[]$ $[]$ 
  []
 
-[8]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
+
+ []
+
+[9 <./images/figure1.png> <./images/perlingen.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
-
- []
-
-[9 <./images/figure2.png> <./images/figure1.png>]
-<images/hilbert.png, id=150, 91.34125pt x 94.85437pt>
+<images/hilbert.png, id=144, 91.34125pt x 94.85437pt>
 File: images/hilbert.png Graphic file (type png)
  <use images/hilbert.png>
-Package pdftex.def Info: images/hilbert.png used on input line 356.
-(pdftex.def)             Requested size: 177.85406pt x 113.81308pt.
+Package pdftex.def Info: images/hilbert.png used on input line 366.
+(pdftex.def)             Requested size: 128.05527pt x 128.05075pt.
 
-<images/sierpinskicrv.png, id=151, 103.38625pt x 102.88437pt>
+<images/sierpinskicrv.png, id=145, 103.38625pt x 102.88437pt>
 File: images/sierpinskicrv.png Graphic file (type png)
 
 <use images/sierpinskicrv.png>
-Package pdftex.def Info: images/sierpinskicrv.png used on input line 364.
-(pdftex.def)             Requested size: 177.84767pt x 113.81209pt.
+Package pdftex.def Info: images/sierpinskicrv.png used on input line 367.
+(pdftex.def)             Requested size: 128.05089pt x 128.04782pt.
 
-<images/cesaro.png, id=152, 84.81688pt x 84.315pt>
+<images/cesaro.png, id=146, 84.81688pt x 84.315pt>
 File: images/cesaro.png Graphic file (type png)
  <use images/cesaro.png>
-Package pdftex.def Info: images/cesaro.png used on input line 370.
-(pdftex.def)             Requested size: 177.83722pt x 113.81387pt.
+Package pdftex.def Info: images/cesaro.png used on input line 368.
+(pdftex.def)             Requested size: 128.04291pt x 128.04045pt.
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 354--374
-[]$[]$ $[]$
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+[10 <./images/perlin2.png (PNG copy)> <./images/terrain.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
-(designreport1.bbl [10 <./images/perlingen.png>]
+ []
+
+[11 <./images/hilbert.png> <./images/sierpinskicrv.png> <./images/cesaro.png>]
+(designreport1.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 30--30
 []| | \OT1/ptm/m/n/12 .kkrieger (2004), []$\OT1/pcr/m/n/12 http : / / web . arc
 hive . org / web / 20110717024227 / http :$
@@ -600,46 +574,42 @@ T1/ptm/m/n/12 .  (Vis-ited on
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 449.
- [11 <./images/perlin2.png (PNG copy)> <./images/terrain.png (PNG copy)>]
-[12 <./images/hilbert.png> <./images/sierpinskicrv.png> <./images/cesaro.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 449.
-
-(designreport1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 449.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 449.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
+ (designreport1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
 Package rerunfilecheck Info: File `designreport1.out' has not changed.
-(rerunfilecheck)             Checksum: F1E35B85E6B50D0288C115F98337ED85;851.
+(rerunfilecheck)             Checksum: 3458A21082F8494B0B036C3CF367B61C;912.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 449.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 454.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6617 strings out of 493673
- 98807 string characters out of 3141521
- 196753 words of memory out of 3000000
- 9834 multiletter control sequences out of 15000+200000
- 21466 words of font info for 43 fonts, out of 3000000 for 9000
+ 6585 strings out of 493673
+ 98357 string characters out of 3141521
+ 195634 words of memory out of 3000000
+ 9816 multiletter control sequences out of 15000+200000
+ 19840 words of font info for 41 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,17n,34p,1134b,2050s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,7n,30p,1134b,1937s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
-enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmri8a.pfb>
-Output written on designreport1.pdf (12 pages, 1409815 bytes).
+enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on designreport1.pdf (12 pages, 1389304 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

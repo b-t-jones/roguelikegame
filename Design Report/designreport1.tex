@@ -208,22 +208,33 @@ The `Agile' software development approach will be used in the project in order t
 The game engine that houses the game world and handles input and output as mentioned will primarily use the asciipanel library, but also follow from an open source implementation created by an online roguelike programmer known as `Trystan' \cite{trystan}. This provides a framework that is able to be modified for the purposes of this project, in order to focus on more complex aspects of the procedural generation algorithmic design. The capabilities of the resulting game engine allow for an interactive window of a similar quality to that of estabilished roguelikes such as Nethack and even Dwarf Fortress. 
 
 
-\begin{figure}[h]
-\begin{minipage}{.5\textwidth}
-  \centering
+% \begin{figure}[h]
+% \begin{minipage}{.5\textwidth}
+%   \centering
+%  	\includegraphics[width=6.25cm,height=4cm]{images/asciipanel1inv.png}
+% 	\caption[]{Asciipanel GUI example \\ Image sourced from: \\\url{http://www.headchant.com/2012/02/15/asciipanel-as/}}
+% 	\label{fig:fig1}
+% \end{minipage}
+% \begin{minipage}{.5\textwidth}
+%   \centering
+%   \includegraphics[width=6.25cm, height=4cm]{images/nethack2.png}
+%   \caption[]{Nethack GUI example [probably copyright]}
+%   \label{fig:fig2}
+% \end{minipage}
+% \end{figure}
+
+\begin{figure}
+\centering
  	\includegraphics[width=6.25cm,height=4cm]{images/asciipanel1inv.png}
-	\caption[]{Asciipanel GUI example \\ Image sourced from: \\\url{http://www.headchant.com/2012/02/15/asciipanel-as/}}
+	\caption[]{Asciipanel GUI example. Image sourced from: \url{http://www.headchant.com/2012/02/15/asciipanel-as/}}
 	\label{fig:fig1}
-\end{minipage}
-\begin{minipage}{.5\textwidth}
-  \centering
-  \includegraphics[width=6.25cm, height=4cm]{images/nethack2.png}
-  \caption[]{Nethack GUI example [probably copyright]}
+	\vspace{2ex}
+	\includegraphics[width=6.25cm, height=4cm]{images/nethack2.png}
+  \caption[]{Nethack GUI example}
   \label{fig:fig2}
-\end{minipage}
-\end{figure}
-%Ask for Friedetzky's help
-% put vertically- increase size
+ \end{figure}
+
+
 
 \subsection{Noise and Smoothing Algorithms}
 \label{subsec:noise}
@@ -232,23 +243,23 @@ Noise algorithms are crucial to most procedurally generated content and will fea
 
 There are a few kinds of noise algorithm, from very basic noise algorithms where each `pixel' has an equal chance to be filled or unfilled, to much more advanced versions such as Perlin noise and Simplex noise \cite{textmodel}\cite{improvepnoise}. The type of noise algorithm selected depends on the project requirements, and the sort of algorithm that will aim to transform the noise environment into a playable, enjoyable world. 
 
-The psuedocode for a basic binary noise algorithm described in FR2 (Table:\ref{table:1}) is shown in algorithm \ref{Alg:alg1} below:
+% The psuedocode for a basic binary noise algorithm described in FR2 (Table:\ref{table:1}) is shown in algorithm \ref{Alg:alg1} below:
 
-\begin{algorithm}
-	\For{$x$ \textless $map width$}{
-		\For{$y$ \textless  $map height$}{
-			\If{$tile[x][y]$= psuedo_random_number() \textless 0.5}{
-				$tile[x][y]$ = $floor$
-			}
-			\Else{
-				$tile[x][y]$ = $wall$
-			}
-		}
-	}
-	\caption{Basic binary noise production}
-	\label{Alg:alg1}
-\end{algorithm}
-
+% \begin{algorithm}
+% 	\For{$x$ \textless $map width$}{
+% 		\For{$y$ \textless  $map height$}{
+% 			\If{$tile[x][y]$= psuedo_random_number() \textless 0.5}{
+% 				$tile[x][y]$ = $floor$
+% 			}
+% 			\Else{
+% 				$tile[x][y]$ = $wall$
+% 			}
+% 		}
+% 	}
+% 	\caption{Basic binary noise production}
+% 	\label{Alg:alg1}
+% \end{algorithm}
+% % 
 % not necessary 
 
 \subsection{Cellular Automata}
@@ -263,7 +274,7 @@ The binary noise algorithm is simple and easy to implement, paving the foundatio
 
 This process is used upon the result of the binary noise algorithm to `smooth' out the landscape by turning areas that are mostly neighbouring walls into walls and areas mostly neighbouring floors into floors. The process is then repeated a number of times until the desired combination of walls and floors is achieved. \\
 
-An example of the process run on the basic noise algorithm seen in algorithm \ref{Alg:alg1} is shown below:
+% An example of the process run on the basic noise algorithm seen in algorithm \ref{Alg:alg1} is shown below:
 
 \begin{figure}[h]
   \centering
@@ -296,7 +307,7 @@ It should be noted at this point that Perlin noise is not without flaws and Perl
 Perlin noise generation can be split into two components, a noise generating function, and an interpolation function. The noise generating function operates in a similar fashion to the binary noise generator described in section \ref{subsec:noise}, except instead of taking on either 0 or 1, the function generates floating point numbers between 0 and a maximum value (known as the amplitude). The interpolation function then smoothly averages across these values, as seen in figures \ref{fig:fig4} \& \ref{fig:fig5}, and we take the distance between points on the x-axis to be the wavelength of the noise wave \cite{Howuseperlin}. 
 
 
-\begin{figure}[h]
+\begin{figure}[h!]
   \centering
  	\includegraphics[scale=0.5]{images/figure2.png}
 	\caption[]{Example 1-dimensional noise function. A random value with a maximum amplitude of 1 is assigned to each point on the X axis.}
@@ -312,7 +323,7 @@ Perlin noise generation can be split into two components, a noise generating fun
 
 To generate Perlin noise, we generate many of these waves (in 1 dimension) or images (in 2 dimensions) at varying wavelengths and frequencies (the combination of which is known as an octave), and sum them up to produce our final image. An example of the process may be seen in figure \ref{fig:fig6}.
 
-\begin{figure}[h]
+\begin{figure}[h!]
   \centering
  	\includegraphics[scale=0.65]{images/perlingen.png}
 	\caption[]{The Perlin noise generation process. The final image is the result of the previous 7 images summed together. Image taken from Tulleken. H, (2009), \emph{`How to Use Perlin Noise in Your Games'}, Dev.Mag, (20), sourced from: \url{http://devmag.org.za/2009/04/25/perlin-noise/} on 09/02/16}
@@ -321,7 +332,7 @@ To generate Perlin noise, we generate many of these waves (in 1 dimension) or im
 
 The applications of this are many-fold, but in a roguelike game this can be used to create the idea of depth into a 2-dimensional world, which was not possible using our previous Cellular Automata approach. The Perlin noise image may be used to form a height-map, where density is proportional to height. This allows the introduction of alternative tile types, such as hills, forests, trees and plains with different movement cost to the character, or even impassable objects such as canyons, crevasses or mountains. Such depth in the game adds considerable complexity, expanding on the many ways the game can already be played. An example can be seen in figure \ref{fig:fig7} below:
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{minipage}{.5\textwidth}
   	\centering
  	\includegraphics[width=6.25cm,height=4cm]{images/perlin2.png}
@@ -346,36 +357,30 @@ The results of Perlin noise look promising, with interesting structures and adde
 
 Space-filling curves are fractal in nature, and given a starting seed, produce deterministic and characteristic curves, shapes and paths that will be used to form a basis for the world generation algorithm.\\
 
-This will be achieved by taking random segments of a generated curve and overlaying them on top of a Perlin noise image. The result will become a `probability density heightmap' for the world, where densely populated regions will have a greater chance to become traversable tiles. The advantage of this is that the generated world will be much more likely to have a structure, with defining curves, edges and paths from one edge to another (potentially linking to other generated segments), while maintaining the natural look and feel of a Perlin generated environment. Additionally, there are a wealth of different types of space-filling curves; some examples are displayed below in [ref figure]. The project will experiment with a number of these to determine the resulting output, and potentially use multiple ones to reflect upon different in-game environments or `biomes', with their own look and feel arising from the different structures provided by the various curves. \\
+This will be achieved by taking random segments of a generated curve and overlaying them on top of a Perlin noise image. The result will become a `probability density heightmap' for the world, where densely populated regions will have a greater chance to become traversable tiles. The advantage of this is that the generated world will be much more likely to have a structure, with defining curves, edges and paths from one edge to another (potentially linking to other generated segments), while maintaining the natural look and feel of a Perlin generated environment. Additionally, there are a wealth of different types of space-filling curves; some examples are displayed below in figure \ref{fig:fig9}. The project will experiment with a number of these to determine the resulting output, and potentially use multiple ones to reflect upon different in-game environments or `biomes', with their own look and feel arising from the different structures provided by the various curves. \\
 
-As an extension, it may be possible to fulfil non-functional requirement 5 by experimenting with a different set of mathematical algorithms: procedural maze generators. Depending on initial parameters, maze generators are able to procedurally produce a wide variety of shapes in a similar fashion to space filling curves, except they have a specified entrance and exit(s). However the purpose of a roguelike is not necessarily to solve a maze-like puzzle, and the usefulness over a regular space filling curve is questionable.
+As an extension, it may be possible to fulfil non-functional requirement 5 by experimenting with a different set of mathematical algorithms: procedural maze generators. Depending on initial parameters, maze generators are able to procedurally produce a wide variety of shapes in a similar fashion to space filling curves, except they have a specified entrance and exit(s). However the purpose of a roguelike is not necessarily to solve a maze-like puzzle, and the usefulness over a regular space filling curve (when not taking the maze as a whole) is questionable.
 
-\begin{figure}[h]
-\begin{minipage}{.5\textwidth}
-  	\centering
- 	\includegraphics[width=6.25cm,height=4cm]{images/hilbert.png}
-	\caption[]{The Hilbert curve provides large, easy paths but is limited to just horizontal and vertical degrees of freedom.}
-	\label{fig:fig8}
-	\end{minipage}
-% \end{figure}
-% \begin{figure}
-	\begin{minipage}{.5\textwidth}
- 	\centering
- 	\includegraphics[width=6.25cm,height=4cm]{images/sierpinskicrv.png}
-	\caption[]{The Sierpinski curve doesn't produce easily followable channels, but could form the basis of several rooms for various gameplay features.}
+\begin{figure}
+\centering
+	\includegraphics[width=4.5cm,height=4.5cm]{images/hilbert.png}
+	\includegraphics[width=4.5cm,height=4.5cm]{images/sierpinskicrv.png}
+	\includegraphics[width=4.5cm,height=4.5cm]{images/cesaro.png}
+	\caption[]{Left: The Hilbert curve provides large, easy paths but is limited to just horizontal and vertical degrees of freedom. Middle: The Sierpinski curve doesn't produce easily followable channels, but could form the basis of several rooms for various gameplay features. Right: The Cesaro curve looks less natural but might provide interesting results for separate in-game biomes. All images sourced from TGMDev, available online at: \url{http://www.tgmdev.be/applications/acheron/acheron.php}	}
 	\label{fig:fig9}
-	\end{minipage}
-	\begin{minipage}{.5\textwidth}
- 	\centering
- 	\includegraphics[width=6.25cm,height=4cm]{images/cesaro.png}
-	\caption[]{The Cesaro curve looks less natural but might provide interesting results for separate in-game biomes.}
-	\label{fig:fig10}
-	\end{minipage}
-
-	\caption[]{All images sourced from TGMDev, available online at: \url{http://www.tgmdev.be/applications/acheron/acheron.php}}
-
-
 \end{figure}
+
+
+\subsection{Evaluation}
+
+The overarching aim of the project is to produce interesting and functional worlds. My evaluation therefore will be split into two sections, one for evaluating the level of interest in the world, and one for assessing the functionality of generated worlds. \\
+
+In order to evaluate how interesting a world will be, the project will aim to use two methods. The first will be a simple user evaluation of created worlds. This may be in the form of simply noting down interesting aspects of multiple generated worlds, or in a more formal user feedback questionnaire. Importantly, the Agile approach to the development of this project allows repeated user evaluation to take place between development sprints, allowing feedback to be taken into account during the next phase. \\
+
+Additionally, in-line with functional requirement 7, the project will aim to create a `fitness heuristic' that will identify key features of interesting maps; for example the presence of multiple pathways, narrow and unavoidable passage ways to put monsters, dead end rooms to put items and traps, and the ratio of traversable to non traversable terrain. This may also be modelled on the feedback from end users in the feedback questionnaire. The combination of fitness factors such as these will result in the return of a weighted world fitness coefficient, allowing the program to have some level of automative knowledge of how `interesting' a generated world is. While it is an important aspect of a roguelike for the world generation to be quick, there must be a trade-off between world quality and real-time terrain generation speed. Provided the world generating process is fast enough, the program would be able to generate multiple worlds and select the best to output to the game. \\
+
+The functionality of worlds will be assessed by a world completeness algorithm, fulfilling non-functional requirement 4. The aim of this will be to test if a world is accessible from any one point a to any arbitrary other point b. While this is non-essential (it may not be necessary to access all parts of a generated world), it may also be game-breaking if large sections or progressions to the game are cut off by procedurally generated walls. Therefore, the algorithm will test for both circumstances: whether it's possible to access the exit point from the starting position, and then whether the entire world is `connected', and if not, measure exactly how connected it might be. A negative result of the former criterion results in the generated world being discarded immediately, while the latter must be reviewed in a user feedback questionnaire as to whether or not the world is still likely to be enjoyable, and to what extent. The algorithm may then be fine-tuned based on user feedback to keep or discard the worlds based on the results of user feedback. 
+
 
 
 
@@ -441,7 +446,7 @@ As an extension, it may be possible to fulfil non-functional requirement 5 by ex
 % You need to give all authors' names in each reference.  Do not use ``et al.'' unless there are more than five authors.  Papers that have not been published should be cited as ``unpublished''.  Papers that have been submitted or accepted for publication should be cited as ``submitted for publication'' as in.  You can also cite using just the year when the author's name appears in the text, as in ``but according to Futher , we \dots''.  Where an authors has more than one publication in a year, add `a', `b' etc. after the year.
 
 
-
+% \subsection{References}
 
 \bibliography{bib}
 
