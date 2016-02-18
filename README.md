@@ -3,6 +3,112 @@ Repository for roguelike game level 3 individual project.
 
 
 
+### Week Beginning 15/02/16
+
+##### Progress: 
+
+* Finished and submitted design report 
+* Editing existing implementation to allow data structures to take variable characters for heightmap implementation
+* Looking into Perlin noise generation techniques in Java and how to integrate into ASCII panel design
+
+##### Meeting with Dr Friedetzky (16/02/16):
+
+* Discussed ways of introducing differential geometry into final implementation
+* Looked into current research
+* Discussed possibility of gaining expert opinions from within the University
+
+##### Objectives: 
+
+* Contact relevant members of the department to discuss introducing different aspects into the project (graphical/mathematical)
+* Continue with Perlin noise 
+* Continue with data structure implementation improvements 
+
+
+
+### Week Beginning 08/02/16
+
+##### Progress: 
+* 11/12 pages of design report first draft complete
+* Deadline at end of week (12/02/16)
+* Referencing improvements and certain design aspects must be changed due to further research
+
+##### Meeting with Dr Friedetzky (09/01/16):
+* Discussed current draft of design report, highlighted areas that needed more discussion
+
+##### Objectives: 
+* Finish design report 
+
+
+### Week Beginning 01/02/16
+
+##### Progress: 
+* 5 pages of design report written
+* Improved project plan created based upon improved research into Perlin Noise generation 
+* Researched software engineering project plans and evaluation methods
+
+##### Meeting with Dr Friedetzky (02/01/16):
+* Discussed current draft of design report, highlighted improvements 
+
+##### Objectives: 
+* Continue with design report
+
+
+### Week Beginning 25/01/16
+
+##### Progress: 
+* Catching up on other academic work means slower than usual project progress, extension obtained to compensate
+* Design report Abstract, Introduction draft written
+
+##### Meeting with Dr Friedetzky (26/01/16):
+* Talked about design report aspects 
+* Discussed referencing, and Latex options
+
+##### Objectives: 
+* Continue with design report 
+
+
+### Week Beginning 18/01/16
+
+##### Progress:
+* Missed week due to personal reasons at home
+* Fiddling with preliminary implementation of cellular automata
+* Continued with design report research
+* Obtained extension for desing report
+
+##### No meeting with Dr Friedetzky, not in Durham.
+
+##### Objectives: 
+* Continue with design report
+
+
+### Week Beginning 14/12/15
+
+##### Progress:
+* Limited tangiable progress, focussing on reading and building up extensive resources and papers for design report
+* Plan of design report in progress
+* Learned LaTeX basics for design report writing
+
+##### No meeting with Dr Friedetzky, email sufficient. 
+
+##### Objectives:
+* Continue with design report 
+
+###Week Beginning 7/12/15
+##### Progress:
+* Decided upon hybridisation method- Perlin noise + Hilbert/Sierpinski curve
+* Looked into Escher worlds- interesting but too tangential
+* Looked into potential for 3d gradient functions
+* Research for Design Report 
+
+##### Meeting with Dr Friedetzky (8/12/15):
+* Research progress report
+* Discussed design report details 
+* Discussed various source types
+
+##### Objectives:
+* Continue as planned with design report research - academic papers/journals key
+
+
 ###Week Beginning 30/11/15
 ##### Progress:
 * Started on structure building tutorial on [(Trystan's Blog)](http://trystans.blogspot.co.uk/2011/08/roguelike-tutorial-03-scrolling-through.html)
