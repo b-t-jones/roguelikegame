@@ -23,7 +23,7 @@ Repository for roguelike game level 3 individual project.
 * Continue with Perlin noise 
 * Continue with data structure implementation improvements 
 
-
+---
 
 ### Week Beginning 08/02/16
 
@@ -38,6 +38,7 @@ Repository for roguelike game level 3 individual project.
 ##### Objectives: 
 * Finish design report 
 
+---
 
 ### Week Beginning 01/02/16
 
@@ -52,6 +53,7 @@ Repository for roguelike game level 3 individual project.
 ##### Objectives: 
 * Continue with design report
 
+---
 
 ### Week Beginning 25/01/16
 
@@ -66,6 +68,7 @@ Repository for roguelike game level 3 individual project.
 ##### Objectives: 
 * Continue with design report 
 
+---
 
 ### Week Beginning 18/01/16
 
@@ -80,6 +83,7 @@ Repository for roguelike game level 3 individual project.
 ##### Objectives: 
 * Continue with design report
 
+---
 
 ### Week Beginning 14/12/15
 
@@ -92,6 +96,9 @@ Repository for roguelike game level 3 individual project.
 
 ##### Objectives:
 * Continue with design report 
+
+---
+
 
 ###Week Beginning 7/12/15
 ##### Progress:
@@ -107,6 +114,8 @@ Repository for roguelike game level 3 individual project.
 
 ##### Objectives:
 * Continue as planned with design report research - academic papers/journals key
+
+---
 
 
 ###Week Beginning 30/11/15
