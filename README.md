@@ -1,6 +1,44 @@
 ## Rogue-like Game Individual Project - Project Log  
 Repository for roguelike game level 3 individual project.
 
+### Week Beginning 29/02/16
+
+##### Progress:
+
+* Built Diamond Square noise algorithm from psuedocode framework
+* Algorithm needs adjusting- doesn't work currently
+
+##### Meeting with Dr Friedetzky (01/03/16)
+
+* Short meeting, program wouldn't run
+
+##### Objectives:
+
+* Fix algorithm
+* Look at ways of improving algorithm from the basic commonly used approach
+
+
+### Week Beginning 22/02/16
+
+##### Progress: 
+
+* Identified members of staff that may be of help
+* Also contacted professional games and Roguelike developer "Slashie", awaiting response
+* Identified method of Fourier transforms that may be of use for integration function
+* Identified several other fractal algorithms as a base before implementing Perlin noise
+* One potentially useful one is the "Diamond Square" algorithm, looked into implementation details
+
+##### Meeting with Dr Friedetzky (23/02/16)
+
+* Discussed design report feedback
+* Discussed merits of diamond square algorithm and decided to proceed with it
+* Discussed deadlines and project objectives before and after Easter
+* Decided Fourier analysis might be overkill for the purposes of the project
+
+##### Objectives:
+
+* Continue with Diamond Square algorithm
+* Potential for additional mathematics - investigate further 
 
 
 ### Week Beginning 15/02/16

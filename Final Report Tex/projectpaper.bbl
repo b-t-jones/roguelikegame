@@ -1,0 +1,116 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{A.~Fournier}{1982}{FournierDSq}
+A.~Fournier, D.~Fussell, L.~C.  \harvardyearleft 1982\harvardyearright ,
+  `Computer rendering of stochastic models', {\em Communications of the ACM}
+  {\bf 25}(6),~371--384.
+
+\harvarditem{A.~Lagae}{2010}{surveyPNF}
+A.~Lagae, e.~a.  \harvardyearleft 2010\harvardyearright , `A survey of
+  procedural noise functions', {\em Computer Graphics Forum} {\bf 0 (1981)}(0).
+
+\harvarditem{Adams}{2007}{VAST}
+Adams, S.~Goel, A.  \harvardyearleft 2007\harvardyearright , `Making sense of
+  vast data', {\em Intelligence and Security Informatics, 2007 IEEE}
+  pp.~270--273.
+
+\harvarditem{Claghorn}{2014}{claghorn}
+Claghorn, J.  \harvardyearleft 2014\harvardyearright , `Fractal terrain
+  generator – example 9.3 | generative landscapes',
+  \url{https://generativelandscapes.wordpress.com/2014/09/15/fractal-terrain-generator-example-9-3/}.
+\newblock (Accessed on 04/30/2016).
+
+\harvarditem{Clauset}{2011}{stats}
+Clauset, A.  \harvardyearleft 2011\harvardyearright , `A brief primer of
+  probability distributions'.
+
+\harvarditem{Craddock}{2015}{Dunhack}
+Craddock, D.~L.  \harvardyearleft 2015\harvardyearright , {\em Dungeon Hacks:
+  How NetHack, Angband, and Other Roguelikes Changed the Course of Video
+  Games}, Authors Republic.
+
+\harvarditem{Fairclough}{n.d.}{planetside}
+Fairclough, M.  \harvardyearleft n.d.\harvardyearright , `Planetside software
+  (terragen)', \url{http://planetside.co.uk/}.
+\newblock (Accessed on 04/30/2016).
+
+\harvarditem{Games}{2015}{E3}
+Games, H.  \harvardyearleft 2015\harvardyearright , `No man's sky gameplay
+  demo'.
+
+\harvarditem{Gardner}{1970}{cellauto}
+Gardner, M.  \harvardyearleft 1970\harvardyearright , `Mathematical games - the
+  fantastic combinations of {J}ohn {C}onway's new solitaire game `life'', {\em
+  Scientific American} {\bf 223},~120--123.
+
+\harvarditem{K.~Compton}{2006}{platformgames}
+K.~Compton, M.~M.  \harvardyearleft 2006\harvardyearright , `Procedural level
+  design for platform games'.
+
+\harvarditem{.kkrieger}{2004}{kkrieger}
+.kkrieger  \harvardyearleft 2004\harvardyearright ,
+  \url{http://web.archive.org/web/20110717024227/http://www.theprodukkt.com/kkrieger}.
+\newblock (Accessed on 02/05/2016).
+
+\harvarditem{Lemay}{1996}{java}
+Lemay, L.~Perkins, C.  \harvardyearleft 1996\harvardyearright , {\em Teach
+  Yourself Java in 21 Days}, Sams.net Publishing, Indiana.
+
+\harvarditem{Miller}{1986}{GMillerDiamondSq}
+Miller, G.  \harvardyearleft 1986\harvardyearright , `The definition and
+  rendering of terrain maps', {\em Computer Graphics} {\bf 20}(4).
+
+\harvarditem{Newzoo}{2014}{newzoo}
+Newzoo  \harvardyearleft 2014\harvardyearright , `Global games market will
+  reach \$102.9 billion in 2017', \url{http://newzoo.com/globalgamesdata}.
+\newblock (Accessed on 02/05/2016).
+
+\harvarditem{Perlin}{1988}{imagesynth}
+Perlin, K.  \harvardyearleft 1988\harvardyearright , `An image synthesizer',
+  {\em Computer Graphics} {\bf 19}(3).
+
+\harvarditem{Perlin}{2002}{improvepnoise}
+Perlin, K.  \harvardyearleft 2002\harvardyearright , `Improving noise', {\em
+  Computer Graphics} {\bf 35}(3).
+
+\harvarditem{Persson}{2012}{notch}
+Persson, M.~A.  \harvardyearleft 2012\harvardyearright , `The word of notch —
+  terrain generation, part 1',
+  \url{http://notch.tumblr.com/post/3746989361/terrain-generation-part-1}.
+\newblock (Visited on 02/12/2016).
+
+\harvarditem{RogueBasin}{2016}{roguebasin}
+RogueBasin  \harvardyearleft 2016\harvardyearright , `Cellular automata method
+  for generating random cave-like levels',
+  \url{http://www.roguebasin.com/index.php?title=Cellular_Automata_Method_for_Generating_Random_Cave-Like_Levels}.
+\newblock (Visited on 02/07/2016).
+
+\harvarditem[Shaker et~al.]{Shaker, Togelius \harvardand\
+  Nelson}{2015}{pgcbook}
+Shaker, N., Togelius, J. \harvardand\ Nelson, M.~J.  \harvardyearleft
+  2015\harvardyearright , {\em Procedural Content Generation in Games: A
+  Textbook and an Overview of Current Research}, Springer.
+
+\harvarditem{Spangler}{2015}{trystan}
+Spangler, T.  \harvardyearleft 2015\harvardyearright , `Asciipanel',
+  \url{https://github.com/trystan/AsciiPanel}.
+\newblock (Accessed on 02/05/2016).
+
+\harvarditem[Togelius et~al.]{Togelius, Shaker \harvardand\
+  Nelson}{2015}{pgcbookch4}
+Togelius, J., Shaker, N. \harvardand\ Nelson, M.~J.  \harvardyearleft
+  2015\harvardyearright , Fractals, noise and agents with applications to
+  landscapes, {\em in} N.~Shaker, J.~Togelius \harvardand\ M.~J. Nelson, eds,
+  `Procedural Content Generation in Games: A Textbook and an Overview of
+  Current Research', Springer.
+
+\harvarditem{UKIE}{2016}{ukie}
+UKIE  \harvardyearleft 2016\harvardyearright , `The games industry in numbers |
+  ukie', \url{http://ukie.org.uk/research}.
+\newblock (Visited on 02/12/2016).
+
+\harvarditem{Wolfram}{1984}{cellularcomplexity}
+Wolfram, S.  \harvardyearleft 1984\harvardyearright , `Cellular automata as
+  models of complexity', {\em Nature} {\bf 311}(5985),~419--424.
+
+\end{thebibliography}

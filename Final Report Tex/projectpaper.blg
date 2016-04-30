@@ -1,0 +1,31 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: projectpaper.aux
+The style file: agsm.bst
+Illegal, another \bibstyle command---line 97 of file projectpaper.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Database file #1: bib.bib
+Repeated entry---line 188 of file bib.bib
+ : @misc{newzoo
+ :             ,
+I'm skipping whatever remains of this entry
+Name 1 in "A. Fournier, D. Fussell, L. Carpenter," has a comma at the end for entry FournierDSq
+while executing---line 1222 of file agsm.bst
+Name 1 in "A. Fournier, D. Fussell, L. Carpenter," has a comma at the end for entry FournierDSq
+while executing---line 1222 of file agsm.bst
+Name 1 in "A. Fournier, D. Fussell, L. Carpenter," has a comma at the end for entry FournierDSq
+while executing---line 1258 of file agsm.bst
+Name 1 in "A. Fournier, D. Fussell, L. Carpenter," has a comma at the end for entry FournierDSq
+while executing---line 1262 of file agsm.bst
+Name 1 in "A. Fournier, D. Fussell, L. Carpenter," has a comma at the end for entry FournierDSq
+while executing---line 1294 of file agsm.bst
+Name 1 in "A. Fournier, D. Fussell, L. Carpenter," has a comma at the end for entry FournierDSq
+while executing---line 1294 of file agsm.bst
+Name 1 in "A. Fournier, D. Fussell, L. Carpenter," has a comma at the end for entry FournierDSq
+while executing---line 1327 of file agsm.bst
+Name 1 in "A. Fournier, D. Fussell, L. Carpenter," has a comma at the end for entry FournierDSq
+while executing---line 1346 of file agsm.bst
+Name 1 in "A. Fournier, D. Fussell, L. Carpenter," has a comma at the end for entry FournierDSq
+while executing---line 1346 of file agsm.bst
+Warning--can't use both author and editor fields in Dunhack
+(There were 11 error messages)
