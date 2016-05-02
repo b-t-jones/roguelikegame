@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.5)  30 APR 2016 05:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.5)  2 MAY 2016 08:55
 entering extended mode
-**"C:/Users/Benjamin/Documents/Dissertation/Final Report/Tex/projectpaper.tex"
-("C:/Users/Benjamin/Documents/Dissertation/Final Report/Tex/projectpaper.tex"
+**"C:/Users/Benjamin/Documents/Dissertation/Final Report/Final Report Tex/proje
+ctpaper.tex"
+
+("C:/Users/Benjamin/Documents/Dissertation/Final Report/Final Report Tex/projec
+tpaper.tex"
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -302,28 +305,36 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count116
 \algocf@algoframe=\box32
 \algocf@algobox=\box33
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count117
+
+
+Package etoolbox Warning: Patching '\begin' failed!
+(etoolbox)                '\AtBeginEnvironment' will not work.
+
 ) (projectpaper.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 31.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 31.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -331,33 +342,33 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count117
+\c@section@level=\count118
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (projectpaper.out) (projectpaper.out)
 \@outlinefile=\write4
-Package hyperref Info: *** compatibility with harvard ****  on input line 26.
+Package hyperref Info: *** compatibility with harvard ****  on input line 31.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
+\scratchcounter=\count119
 \scratchdimen=\dimen123
 \scratchbox=\box35
-\nofMPsegments=\count119
-\nofMParguments=\count120
+\nofMPsegments=\count120
+\nofMParguments=\count121
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count121
+\MPscratchCnt=\count122
 \MPscratchDim=\dimen124
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
 \everyMPtoPDFconversion=\toks20
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 26.
+LaTeX Info: Redefining \microtypecontext on input line 31.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -372,190 +383,26 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 72.
+ [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-[1
-
-{C:/Users/Benjamin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-
- []
-
-<images/dwarffortress.png, id=88, 642.4pt x 301.125pt>
+{C:/Users/Benjamin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+<images/dwarffortress.png, id=116, 642.4pt x 301.125pt>
 File: images/dwarffortress.png Graphic file (type png)
 
 <use images/dwarffortress.png>
-Package pdftex.def Info: images/dwarffortress.png used on input line 110.
+Package pdftex.def Info: images/dwarffortress.png used on input line 117.
 (pdftex.def)             Requested size: 138.33876pt x 85.35744pt.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 113.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 113.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 113.
-
-<images/nethack3.png, id=89, 400.49625pt x 250.9375pt>
-File: images/nethack3.png Graphic file (type png)
-
-<use images/nethack3.png>
-Package pdftex.def Info: images/nethack3.png used on input line 116.
-(pdftex.def)             Requested size: 138.34245pt x 85.35973pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-[3 <./images/dwarffortress.png> <./images/nethack3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 119.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
-
- []
-
-[6]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 226.
-
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 226.
-
-<images/cellauto.png, id=110, 722.19812pt x 430.10687pt>
-File: images/cellauto.png Graphic file (type png)
-
-<use images/cellauto.png>
-Package pdftex.def Info: images/cellauto.png used on input line 235.
-(pdftex.def)             Requested size: 361.09818pt x 215.0529pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-[8 <./images/cellauto.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--260
-
- []
-
-[9]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 276.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 290.
-
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 Package microtype Info: Loading generic settings for font family
@@ -563,104 +410,124 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<images/diamondsquare.jpg, id=134, 1535.7375pt x 1385.175pt>
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 119.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 119.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 119.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 121.
+
+<images/nethack3.png, id=119, 400.49625pt x 250.9375pt>
+File: images/nethack3.png Graphic file (type png)
+
+<use images/nethack3.png>
+Package pdftex.def Info: images/nethack3.png used on input line 124.
+(pdftex.def)             Requested size: 138.34245pt x 85.35973pt.
+ [3 <./images/dwarffortress.png> <./images/nethack3.png>] [4] [5]
+Missing character: There is no ‚ in font ptmr7t-25ls!
+Missing character: There is no Ä in font ptmr7t-25ls!
+Missing character: There is no ú in font ptmr7t-25ls!
+Missing character: There is no ‚ in font ptmr7t-25ls!
+Missing character: There is no Ä in font ptmr7t-25ls!
+Missing character: There is no ù in font ptmr7t-25ls!
+ [6]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 264.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 264.
+ [7] <images/cellauto.png, id=147, 722.19812pt x 430.10687pt>
+File: images/cellauto.png Graphic file (type png)
+
+<use images/cellauto.png>
+Package pdftex.def Info: images/cellauto.png used on input line 274.
+(pdftex.def)             Requested size: 361.09818pt x 215.0529pt.
+ [8 <./images/cellauto.png>]
+<images/diamondsquare.jpg, id=157, 1535.7375pt x 1385.175pt>
 File: images/diamondsquare.jpg Graphic file (type jpg)
 
 <use images/diamondsquare.jpg>
-Package pdftex.def Info: images/diamondsquare.jpg used on input line 298.
+Package pdftex.def Info: images/diamondsquare.jpg used on input line 305.
 (pdftex.def)             Requested size: 184.44994pt x 166.36177pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 318.
+ [9] [10 <./images/diamondsquare.jpg>]
+<images/undersmoothing.png, id=193, 361.35pt x 214.30063pt>
+File: images/undersmoothing.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-[]\OT1/ptm/m/n/12/-25ls (+20) Figure 3: |The pro-cess of the Di-a-mond Square a
-l-go-rithm can be seen
+<use images/undersmoothing.png>
+Package pdftex.def Info: images/undersmoothing.png used on input line 361.
+(pdftex.def)             Requested size: 119.89098pt x 85.35902pt.
+
+<images/nosmoothingsmall.png, id=195, 362.35374pt x 215.30438pt>
+File: images/nosmoothingsmall.png Graphic file (type png)
+
+<use images/nosmoothingsmall.png>
+Package pdftex.def Info: images/nosmoothingsmall.png used on input line 368.
+(pdftex.def)             Requested size: 119.88673pt x 85.35803pt.
+
+Underfull \hbox (badness 5446) in paragraph at lines 369--369
+[]\OT1/ptm/m/n/10.95/-25ls (+20) (b) |Diamond-square over-world with-out
  []
 
+<images/smoothing.png, id=200, 858.5676pt x 536.7252pt>
+File: images/smoothing.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-\OT1/ptm/m/n/12/-25ls (+20) clearly here. Im-age taken from: []$\OT1/pcr/m/n/12
-/-25ls https : / / cmcbain . com / 2014 / 07 / 31 /$
- []
+<use images/smoothing.png>
+Package pdftex.def Info: images/smoothing.png used on input line 378.
+(pdftex.def)             Requested size: 368.9069pt x 230.61536pt.
+ [11 <./images/undersmoothing.png> <./images/nosmoothingsmall.png> <./images/sm
+oothing.png>]
+<images/dragon.png, id=211, 165.18857pt x 170.92429pt>
+File: images/dragon.png Graphic file (type png)
+ <use images/dragon.png>
+Package pdftex.def Info: images/dragon.png used on input line 404.
+(pdftex.def)             Requested size: 119.89095pt x 85.3576pt.
 
+<images/dragonCave.PNG, id=212, 452.18938pt x 424.08438pt>
+File: images/dragonCave.PNG Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+<use images/dragonCave.PNG>
+Package pdftex.def Info: images/dragonCave.PNG used on input line 410.
+(pdftex.def)             Requested size: 119.88481pt x 85.35893pt.
 
- []
+<images/cavesmoothing.png, id=213, 593.0958pt x 280.4076pt>
+File: images/cavesmoothing.png Graphic file (type png)
 
+<use images/cavesmoothing.png>
+Package pdftex.def Info: images/cavesmoothing.png used on input line 421.
+(pdftex.def)             Requested size: 368.9069pt x 174.4114pt.
+ [12 <./images/dragon.png> <./images/dragonCave.PNG> <./images/cavesmoothing.pn
+g>]
+<images/collaboration.png, id=223, 732.336pt x 351.714pt>
+File: images/collaboration.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+<use images/collaboration.png>
+Package pdftex.def Info: images/collaboration.png used on input line 464.
+(pdftex.def)             Requested size: 368.9069pt x 177.17677pt.
 
- []
+<images/varyingh.png, id=229, 615.7404pt x 370.986pt>
+File: images/varyingh.png Graphic file (type png)
 
-[10 <./images/diamondsquare.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
+<use images/varyingh.png>
+Package pdftex.def Info: images/varyingh.png used on input line 477.
+(pdftex.def)             Requested size: 368.9069pt x 222.27065pt.
+ [13] [14 <./images/collaboration.png> <./images/varyingh.png>] <images/speedte
+st.png, id=248, 578.16pt x 456.7464pt>
+File: images/speedtest.png Graphic file (type png)
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--323
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--333
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--340
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 351--354
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 355--359
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--367
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--398
-
- []
-
+<use images/speedtest.png>
+Package pdftex.def Info: images/speedtest.png used on input line 501.
+(pdftex.def)             Requested size: 230.56593pt x 182.14474pt.
+ [15] [16 <./images/speedtest.png>] [17] [18]
 (projectpaper.bbl
 Missing character: There is no ‚ in font ptmr7t-25ls!
 Missing character: There is no Ä in font ptmr7t-25ls!
@@ -677,14 +544,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--22
 ativelandscapes . wordpress . com / 2014 / 09 / 15 /$
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 []| | \OT1/ptm/m/n/12/-25ls (+20) .kkrieger (2004), []$\OT1/pcr/m/n/12/-25ls ht
 tp : / / web . archive . org / web / 20110717024227 / http :$
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 67--67
+Underfull \hbox (badness 7064) in paragraph at lines 78--78
 []| | \OT1/ptm/m/n/12/-25ls (+20) New-zoo (2014), `Global games mar-ket will re
 ach $102.9 bil-lion in 2017', []$\OT1/pcr/m/n/12/-25ls http :$
  []
@@ -693,57 +560,59 @@ Missing character: There is no ‚ in font ptmr7t-25ls!
 Missing character: There is no Ä in font ptmr7t-25ls!
 Missing character: There is no î in font ptmr7t-25ls!
 
-Underfull \hbox (badness 3780) in paragraph at lines 87--87
+Underfull \hbox (badness 3780) in paragraph at lines 98--98
 []| | \OT1/ptm/m/n/12/-25ls (+20) Rogue-Basin (2016), `Cel-lu-lar au-tomata met
 hod for gen-er-at-ing ran-dom cave-like lev-els',
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []$\OT1/pcr/m/n/12/-25ls http : / / www . roguebasin . com / index . php ? titl
 e = Cellular _ Automata _$
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 410.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 410.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 615.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
  (projectpaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 410.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 410.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 615.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 615.
 Package rerunfilecheck Info: File `projectpaper.out' has not changed.
-(rerunfilecheck)             Checksum: 84EF0F594E6E5EFC4E0AE59BB4B07D53;1134.
+(rerunfilecheck)             Checksum: 69E0E28C03EF9397776A6E6648F46A27;1637.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 410.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 615.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10047 strings out of 493673
- 159591 string characters out of 3141521
- 293698 words of memory out of 3000000
- 12901 multiletter control sequences out of 15000+200000
- 46897 words of font info for 280 fonts, out of 3000000 for 9000
+ 10536 strings out of 493673
+ 166481 string characters out of 3141521
+ 302030 words of memory out of 3000000
+ 13294 multiletter control sequences out of 15000+200000
+ 52745 words of font info for 327 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,15n,77p,1993b,2323s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,77p,2000b,2909s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
 enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on projectpaper.pdf (13 pages, 644215 bytes).
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on projectpaper.pdf (20 pages, 2998392 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 34981 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 37642 words of extra memory for PDF output out of 42996 (max. 10000000)
 
